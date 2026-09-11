@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Trebuchet MS', ui-sans-serif, system-ui, sans-serif;
+    --font-display: Georgia, Cambria, 'Times New Roman', serif;
+    --color-cream: #fcf8f1;
+    --color-warm: #f4ead9;
+    --color-ink: #283137;
+    --color-coral: #d86751;
+    --color-peach: #f7cfae;
+    --color-rose: #f4d1d8;
+    --color-sky: #c9e5ed;
+    --color-amber: #f7df9d;
+    --color-moss: #54705d;
+    --color-violet: #ddd2ed;
+    --shadow-card: 0 8px 26px rgb(40 49 55 / 0.06);
+    --shadow-soft: 0 12px 30px rgb(40 49 55 / 0.10);
+    --shadow-lift: 0 20px 45px rgb(40 49 55 / 0.15);
+}
+
+@layer base {
+    html { scroll-behavior: smooth; }
+    body { min-width: 320px; }
+    ::selection { background: #f7cfae; color: #283137; }
+}
+
+@layer components {
+    .eyebrow { @apply text-xs font-bold uppercase tracking-[0.2em] text-coral; }
+    .nav-link { @apply transition hover:text-coral; }
+    .mobile-link { @apply block rounded-xl px-3 py-2.5 text-sm font-bold text-ink/70 transition hover:bg-warm hover:text-ink; }
+    .footer-label { @apply text-xs font-bold uppercase tracking-[0.18em] text-peach; }
+    .footer-link { @apply mt-3 block text-sm text-cream/65 transition hover:text-peach; }
+    .social-dot { @apply grid size-8 place-items-center rounded-full bg-white/10 text-[10px] font-bold uppercase text-cream/75; }
+    .form-label { @apply grid gap-2 text-sm font-bold text-ink; }
+    .form-input { @apply w-full rounded-xl border border-ink/12 bg-cream px-4 py-3 text-sm font-medium text-ink outline-none transition placeholder:text-ink/35 focus:border-coral focus:bg-white focus:ring-4 focus:ring-coral/10; }
+    .cat-mark { @apply grid size-28 place-items-center rounded-[2.5rem] border-[10px] border-current text-5xl font-display leading-none shadow-soft; }
+    .neon-logo { @apply grid size-11 place-items-center rounded-xl bg-ink p-1 shadow-soft; }
+    .neon-logo svg { @apply size-full; }
+    .neon-logo path { @apply stroke-sky; stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+    .neon-logo .neon-logo__cat { stroke: #ff71ba; }
+}
