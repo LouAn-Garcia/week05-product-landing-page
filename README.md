@@ -138,7 +138,7 @@ Open `http://127.0.0.1:8000` after starting the server. Use `php artisan test` t
 
 ### Figure 11. GitHub Repository
 
-![GitHub Repository](screenshots/git)
+![GitHub Repository](screenshots/git.png)
 
 
 ## Before and After
