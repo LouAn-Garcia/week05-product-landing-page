@@ -92,8 +92,54 @@ php artisan serve
 Open `http://127.0.0.1:8000` after starting the server. Use `php artisan test` to run the feature tests.
 
 ## Screenshots
+# Neko Wave
 
-The project intentionally contains no generated images or media, following the project constraint. A capture checklist is available in [screenshots/README.md](screenshots/README.md) for the required desktop, tablet, mobile, section, component-folder, and repository screenshots.
+## Screenshots
+
+### Figure 1. Desktop View
+
+![Desktop View](screenshots/desktop.png)
+
+### Figure 2. Tablet View
+
+![Tablet View](screenshots/tablet.png)
+
+### Figure 3. Mobile View
+
+![Mobile View](screenshots/mobile.png)
+
+### Figure 4. Navigation Bar
+
+![Navigation Bar](screenshots/navigation.png)
+
+### Figure 5. Hero Section
+
+![Hero Section](screenshots/hero.png)
+
+### Figure 6. Features Section
+
+![Features Section](screenshots/feature.png)
+
+### Figure 7. Pricing Section
+
+![Pricing Section](screenshots/pricing.png)
+
+### Figure 8. Testimonials
+
+![Testimonials](screenshots/testimonials.png)
+
+### Figure 9. Footer
+
+![Footer](screenshots/footer.png)
+
+### Figure 10. Blade Components Folder
+
+![Blade Components Folder](screenshots/blade.png)
+
+### Figure 11. GitHub Repository
+
+![GitHub Repository](screenshots/git)
+
 
 ## Before and After
 
