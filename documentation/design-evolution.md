@@ -33,7 +33,3 @@ The finished structure establishes a clear visual hierarchy. The hero introduces
 - Repeated rounded surfaces, gentle shadows, and short labels to make scanning easier.
 - Added real Laravel data flows for menu items, cat profiles, reservations, and messages.
 - Made the layout responsive from the first column up rather than shrinking a desktop-only composition.
-
-## Capture note
-
-When capturing your own submission images, take one screenshot of the text wireframe above or a quick low-fidelity browser prototype as the "before" state. Then capture the finished desktop, tablet, and mobile views as the "after" state.
