@@ -145,24 +145,6 @@ Open `http://127.0.0.1:8000` after starting the server. Use `php artisan test` t
 
 See [documentation/design-evolution.md](documentation/design-evolution.md) for the initial wireframe, final structure, and design decisions. It provides an honest before/after comparison in text form so the project stays media-free.
 
-## LinkedIn Portfolio Copy
-
-A ready-to-personalize post is available in [documentation/linkedin-post.md](documentation/linkedin-post.md). Add your public repository link and attach your own locally captured before/after screenshots before publishing.
-
-## Suggested Git History
-
-Use meaningful commits as you work, for example:
-
-1. `chore: scaffold Laravel application`
-2. `feat: add cafe domain models and migrations`
-3. `feat: seed menu and cat profiles`
-4. `feat: create reusable navigation and hero components`
-5. `feat: build responsive feature and menu sections`
-6. `feat: add pricing and testimonial components`
-7. `feat: build reservation request flow`
-8. `feat: add contact form and validation`
-9. `style: refine neko wave responsive theme`
-10. `docs: add project and portfolio documentation`
 
 ## Reflection
 
